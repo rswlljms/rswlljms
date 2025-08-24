@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Roswell James Vitaliz  
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=38BDF8&width=435&lines=BSIT+Student+%7C+Web+%26+Mobile+Developer;Exploring+Blockchain+%26+AI;Always+Learning+%7C+Always+Building)](https://git.io/typing-svg)
+
 🎓 A passionate **BSIT Student** from the Philippines, exploring the world of software development and technology.  
 💻 I love building **web & mobile applications**, experimenting with **blockchain integration**, and constantly learning new tools.  
 
@@ -10,7 +12,7 @@
 - 🌱 Exploring **Web & Mobile Development** + **Open Source Contributions**
 - 🛠️ Building projects like:  
   - 📱 Web-based system  
-  - 🤖 Assistive Tech
+  - 🤖 Assistive Tech  
 
 ---
 
@@ -29,8 +31,19 @@
 
 ---
 
+## 📊 GitHub Stats
+![Roswell's GitHub stats](https://github-readme-stats.vercel.app/api?username=rswljms&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rswljms&layout=compact&theme=radical)  
+![GitHub Streak](https://streak-stats.demolab.com?user=rswljms&theme=radical&hide_border=true)  
+
+---
+
 ## 🌐 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=fff)](https://www.linkedin.com/in/roswell-james-vitaliz-182a58181/)  
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=fff)](mailto:roswelljamesvitaliz@gmail.com)  
 
-🔥 "Turning passion into projects, and projects into progress." 🔥
+---
+
+![Visitor Count](https://komarev.com/ghpvc/?username=rswljms&label=Profile%20Views&color=0e75b6&style=flat)  
+
+🔥 *"Turning passion into projects, and projects into progress."* 🔥
