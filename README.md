@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Roswell James Vitaliz  
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=38BDF8&width=435&lines=BSIT+Student+%7C+Web+%26+Mobile+Developerr;Exploring+Blockchain+%26+AI;Always+Learning+%7C+Always+Building)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=38BDF8&width=435&lines=BSIT+Student+%7C+Web+%26+Mobile+Developer;Exploring+Blockchain+%26+AI;Always+Learning+%7C+Always+Building)](https://git.io/typing-svg)
 
 🎓 A passionate **BSIT Student** from the Philippines, exploring the world of software development and technology.  
 💻 I love building **web & mobile applications**, experimenting with **blockchain integration**, and constantly learning new tools.  
