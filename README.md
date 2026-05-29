@@ -1,85 +1,91 @@
-<h1 align="left">Hey <img src="https://emojis.slackmojis.com/emojis/images/1577305505/7373/hand_wave.gif?1577305505" width="50" /> What's up? I'm Roswell James</h1>
-
-###
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=38BDF8&width=435&lines=Student+%7C+Web+%26+Mobile+Dev;Exploring+Blockchain+%26+AI;Always+Learning+%7C+Always+Building)](https://git.io/typing-svg)
-
-<p align="left">🎓 I’m a BSIT student from <img src="https://cdn-icons-png.flaticon.com/128/197/197561.png"  width="17" />
- <b>Philippines</b> with a strong passion for technology.<br>💻 I love building web and mobile apps, exploring blockchain integration, and continuously learning new tools.</p>
-
-###
-
 <div align="center">
-  <img height="320" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZrZHV1aGptMnVyM2RscTQ1bzI4d2MwNjUzMzlqY21iZXR6eTByMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OLPQ6z2hlHmwFc4Hso/giphy.gif"  />
+
+# Hey <img src="https://emojis.slackmojis.com/emojis/images/1577305505/7373/hand_wave.gif?1577305505" width="50" /> What's up? I'm Roswell James
+
+### Mobile App Developer • Web Developer
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+Modern+Web+%26+Mobile+Apps;Exploring+Blockchain+%26+AI;Always+Learning+Always+Building" />
+
+<br>
+
+<a href="mailto:roswelljamesvitaliz@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/roswell-james-vitaliz-182a58181/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<br><br>
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZrZHV1aGptMnVyM2RscTQ1bzI4d2MwNjUzMzlqY21iZXR6eTByMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OLPQ6z2hlHmwFc4Hso/giphy.gif" width="650"/>
+
 </div>
 
-###
+---
+
+# 🚀 About Me
+
+```yaml
+name: Roswell James
+
+location: Philippines
+
+education:
+  - Bachelor of Science in Information Technology Major in Web and Mobile Development
+
+focus:
+  - Mobile Development
+  - Web Development
+  - API Integration
+  - Artificial Intelligence
+
+currently_learning:
+  - AI Integration
+  - Clean Architecture
+```
+
+---
+
+# 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rswlljms&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rswlljms&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+
+<img src="https://skillicons.dev/icons?i=flutter,dart,react,js,php,laravel,html,css,tailwind,firebase,mysql,git,figma,vscode&perline=7" />
+
 </div>
 
-###
+---
+
+# 🔥 Contribution Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+
+<img src="https://streak-stats.demolab.com?user=rswlljms&theme=tokyonight&hide_border=true" />
+
 </div>
 
-###
+---
 
-###
-
-<h1 align="left">🛠️ Tech Stack</h1>
-
-###
-
-<br clear="both">
-
-<h3 align="center">Languages & Tools I use:</h3>
-
-###
-
-<br clear="both">
+# 📈 Contribution Activity
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="50" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="50" alt="css logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="50" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=dart" height="50" alt="dart logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="50" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="50" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="50" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="50" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50" alt="git logo"  />
-  <img width="12" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rswlljms&theme=tokyo-night&hide_border=true" />
+
 </div>
 
-###
 
-<h1 align="left">🌐 Connect with Me</h1>
+---
 
-###
+</div>
 
 <div align="center">
-  <a href="mailto:roswelljamesvitaliz@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="45" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/roswell-james-vitaliz-182a58181/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="45" alt="linkedin logo"  />
-  </a>
-</div>
 
-###
+<img src="https://komarev.com/ghpvc/?username=rswlljms&label=Profile+Views&color=38BDF8&style=for-the-badge" />
+
+<br><br>
+
+### 💙 Code • Learn • Build • Repeat
+
+</div>
