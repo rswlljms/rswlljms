@@ -29,19 +29,14 @@
 ```yaml
 name: Roswell James
 
-location: Philippines
-
 education:
-  - Bachelor of Science in Information Technology Major in Web and Mobile Development
+  - Bachelor of Science in Information Technology Major in Web and Mobile Application Development
 
 focus:
   - Mobile Development
   - Web Development
   - API Integration
   - Artificial Intelligence
-
-currently_learning:
-  - AI Integration
   - Clean Architecture
 ```
 
