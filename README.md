@@ -80,6 +80,7 @@ focus:
 <img src="https://komarev.com/ghpvc/?username=rswlljms&label=Profile+Views&color=38BDF8&style=for-the-badge" />
 
 <br><br>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X1Q625APQ3)
 
 ### 💙 Code • Learn • Build • Repeat
 
