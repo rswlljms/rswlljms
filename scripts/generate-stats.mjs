@@ -149,10 +149,10 @@ function renderStreakSVG({ username, total, totalStart, totalEnd, current, longe
   <text x="25" y="34" font-family="${FONT}" font-size="15" font-weight="700" fill="#38bdf8">${title}</text>
   <line x1="165" y1="55" x2="165" y2="150" stroke="#2b2f45" stroke-width="1"/>
   <line x1="330" y1="55" x2="330" y2="150" stroke="#2b2f45" stroke-width="1"/>${statCol(82.5, `${total}`, "Total Contributions", formatRange(totalStart, totalEnd))}
-  <circle cx="247.5" cy="88" r="28" fill="none" stroke="#2b2f45" stroke-width="3"/>
-  <path d="M 259.33 62.62 A 28 28 0 1 1 235.67 62.62" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
-  <path d="M 247.5 50.5 C 249.3 53.8 251.6 56.2 251.6 59.6 A 4.1 4.1 0 0 1 243.4 59.6 C 243.4 56.2 245.7 53.8 247.5 50.5 Z" fill="#38bdf8"/>
-  <text x="247.5" y="97" text-anchor="middle" font-family="${FONT}" font-size="26" font-weight="700" fill="#ffffff">${current.length}</text>
+  <circle cx="247.5" cy="80" r="24" fill="none" stroke="#2b2f45" stroke-width="3"/>
+  <path d="M 257.64 58.25 A 24 24 0 1 1 237.36 58.25" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 247.5 46 C 249.2 49.2 251.4 51.5 251.4 54.8 A 3.9 3.9 0 0 1 243.6 54.8 C 243.6 51.5 245.8 49.2 247.5 46 Z" fill="#38bdf8"/>
+  <text x="247.5" y="88" text-anchor="middle" font-family="${FONT}" font-size="24" font-weight="700" fill="#ffffff">${current.length}</text>
   <text x="247.5" y="122" text-anchor="middle" font-family="${FONT}" font-size="11" font-weight="600" letter-spacing="0.6" fill="#9aa0b4">Current Streak</text>
   <text x="247.5" y="138" text-anchor="middle" font-family="${FONT}" font-size="9" fill="#7a7f99">${escapeXml(currentLabel)}</text>${statCol(412.5, `${longest.length} day${longest.length === 1 ? "" : "s"}`, "Longest Streak", longest.length > 0 ? formatRange(longest.start, longest.end) : "No contributions yet")}
 </svg>
