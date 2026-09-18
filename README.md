@@ -56,7 +56,7 @@ focus:
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=rswlljms&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=rswlljms&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 
 </div>
 
@@ -66,10 +66,17 @@ focus:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rswlljms&theme=tokyo-night&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rswlljms&theme=tokyo-night&hide_border=true&cache_seconds=1800" />
 
 </div>
 
+<!--
+  If the graph above still shows broken, the free vercel instance is likely
+  rate-limited/down again. Swap the src above for this known-working
+  community-hosted fallback instead:
+
+  https://fabianocouto-activity-graph.vercel.app/graph/?username=rswlljms&theme=tokyo-night&hide_border=true
+-->
 
 ---
 
@@ -80,7 +87,6 @@ focus:
 <img src="https://komarev.com/ghpvc/?username=rswlljms&label=Profile+Views&color=38BDF8&style=for-the-badge" />
 
 <br><br>
-
 
 ### 💙 Code • Learn • Build • Repeat
 
