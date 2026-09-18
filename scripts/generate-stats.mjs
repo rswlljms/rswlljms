@@ -123,7 +123,7 @@ function escapeXml(s) {
     .replace(/'/g, "&apos;");
 }
 
-const FONT = `-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif`;
+const FONT = `-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif`;
 
 function renderStreakSVG({ username, total, totalStart, totalEnd, current, longest, generatedAt }) {
   const title = `${escapeXml(username)}'s Contribution Streak`;
