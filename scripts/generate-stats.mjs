@@ -125,21 +125,36 @@ function escapeXml(s) {
 
 const FONT = `-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif`;
 
-function renderStreakSVG({ username, total, totalStart, totalEnd, current, longest, generatedAt }) {
+function formatRangeShort(start, end) {
+  if (!start || !end) return "—";
+  const a = new Date(`${start}T00:00:00Z`);
+  const b = new Date(`${end}T00:00:00Z`);
+  const left = `${MONTHS[a.getUTCMonth()]} ${a.getUTCDate()}`;
+  const right = `${MONTHS[b.getUTCMonth()]} ${b.getUTCDate()}`;
+  if (start === end) return left;
+  if (a.getUTCFullYear() === b.getUTCFullYear()) return `${left} - ${right}`;
+  return `${left}, ${a.getUTCFullYear()} - ${right}, ${b.getUTCFullYear()}`;
+}
+
+function renderStreakSVG({ username, total, totalStart, totalEnd, current, longest }) {
   const title = `${escapeXml(username)}'s Contribution Streak`;
-  const col = (x, value, label, range) => `
-      <text x="${x}" y="108" text-anchor="middle" font-family="${FONT}" font-size="30" font-weight="700" fill="#ffffff">${escapeXml(String(value))}</text>
-      <text x="${x}" y="130" text-anchor="middle" font-family="${FONT}" font-size="11" font-weight="600" letter-spacing="0.6" fill="#9aa0b4">${escapeXml(label)}</text>
-      <text x="${x}" y="146" text-anchor="middle" font-family="${FONT}" font-size="9" fill="#7a7f99">${escapeXml(range)}</text>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img">
+  const statCol = (x, value, label, range) => `
+      <text x="${x}" y="100" text-anchor="middle" font-family="${FONT}" font-size="30" font-weight="700" fill="#ffffff">${escapeXml(String(value))}</text>
+      <text x="${x}" y="122" text-anchor="middle" font-family="${FONT}" font-size="11" font-weight="600" letter-spacing="0.6" fill="#9aa0b4">${escapeXml(label)}</text>
+      <text x="${x}" y="138" text-anchor="middle" font-family="${FONT}" font-size="9" fill="#7a7f99">${escapeXml(range)}</text>`;
+  const currentLabel = current.length > 0 ? formatRangeShort(current.start, current.end) : "No active streak";
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="175" viewBox="0 0 495 175" role="img">
   <title>${title}</title>
-  <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="#1a1b27" stroke="#38bdf8" stroke-opacity="0.4"/>
+  <rect x="0.5" y="0.5" width="494" height="174" rx="10" fill="#1a1b27" stroke="#38bdf8" stroke-opacity="0.4"/>
   <text x="25" y="34" font-family="${FONT}" font-size="15" font-weight="700" fill="#38bdf8">${title}</text>
-  <line x1="165" y1="55" x2="165" y2="160" stroke="#2b2f45" stroke-width="1"/>
-  <line x1="330" y1="55" x2="330" y2="160" stroke="#2b2f45" stroke-width="1"/>
-  <circle cx="247.5" cy="96" r="33" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-opacity="0.85"/>
-  <circle cx="247.5" cy="96" r="39" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.25"/>${col(82.5, `${total}`, "Total Contributions", formatRange(totalStart, totalEnd))}${col(247.5, `${current.length} day${current.length === 1 ? "" : "s"}`, "Current Streak", current.length > 0 ? formatRange(current.start, current.end) : "No active streak")}${col(412.5, `${longest.length} day${longest.length === 1 ? "" : "s"}`, "Longest Streak", longest.length > 0 ? formatRange(longest.start, longest.end) : "No contributions yet")}
-  <text x="25" y="180" font-family="${FONT}" font-size="9" fill="#5b6078">Generated ${escapeXml(generatedAt)} (UTC) · source: GitHub GraphQL</text>
+  <line x1="165" y1="55" x2="165" y2="150" stroke="#2b2f45" stroke-width="1"/>
+  <line x1="330" y1="55" x2="330" y2="150" stroke="#2b2f45" stroke-width="1"/>${statCol(82.5, `${total}`, "Total Contributions", formatRange(totalStart, totalEnd))}
+  <circle cx="247.5" cy="88" r="28" fill="none" stroke="#2b2f45" stroke-width="3"/>
+  <path d="M 259.33 62.62 A 28 28 0 1 1 235.67 62.62" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 247.5 50.5 C 249.3 53.8 251.6 56.2 251.6 59.6 A 4.1 4.1 0 0 1 243.4 59.6 C 243.4 56.2 245.7 53.8 247.5 50.5 Z" fill="#38bdf8"/>
+  <text x="247.5" y="97" text-anchor="middle" font-family="${FONT}" font-size="26" font-weight="700" fill="#ffffff">${current.length}</text>
+  <text x="247.5" y="122" text-anchor="middle" font-family="${FONT}" font-size="11" font-weight="600" letter-spacing="0.6" fill="#9aa0b4">Current Streak</text>
+  <text x="247.5" y="138" text-anchor="middle" font-family="${FONT}" font-size="9" fill="#7a7f99">${escapeXml(currentLabel)}</text>${statCol(412.5, `${longest.length} day${longest.length === 1 ? "" : "s"}`, "Longest Streak", longest.length > 0 ? formatRange(longest.start, longest.end) : "No contributions yet")}
 </svg>
 `;
 }
@@ -296,7 +311,6 @@ async function main() {
     totalEnd: sorted[sorted.length - 1]?.date ?? null,
     current,
     longest,
-    generatedAt,
   });
   const activitySVG = renderActivitySVG({ username: USERNAME, last31, generatedAt });
 
