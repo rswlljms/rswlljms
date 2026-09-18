@@ -1,0 +1,40 @@
+name: Update contribution stats
+
+on:
+  schedule:
+    # Every 3 hours
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate stats SVGs
+        run: node scripts/generate-stats.mjs
+        env:
+          GH_USERNAME: rswlljms
+          # Classic PAT with only the `read:user` scope (see README / workflow notes).
+          # The default GITHUB_TOKEN lacks `read:user` for contributionsCollection.
+          GH_TOKEN: ${{ secrets.STATS_PAT }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg assets/activity.svg
+          git diff --staged --quiet || { git commit -m "chore: refresh contribution stats [skip ci]"; git push; }
