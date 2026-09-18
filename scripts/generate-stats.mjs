@@ -125,36 +125,71 @@ function escapeXml(s) {
 
 const FONT = `-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif`;
 
-function formatRangeShort(start, end) {
-  if (!start || !end) return "—";
-  const a = new Date(`${start}T00:00:00Z`);
-  const b = new Date(`${end}T00:00:00Z`);
-  const left = `${MONTHS[a.getUTCMonth()]} ${a.getUTCDate()}`;
-  const right = `${MONTHS[b.getUTCMonth()]} ${b.getUTCDate()}`;
-  if (start === end) return left;
-  if (a.getUTCFullYear() === b.getUTCFullYear()) return `${left} - ${right}`;
-  return `${left}, ${a.getUTCFullYear()} - ${right}, ${b.getUTCFullYear()}`;
+function formatDemolabDate(iso, nowYear) {
+  if (!iso) return "—";
+  const d = new Date(`${iso}T00:00:00Z`);
+  const monthDay = `${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}`;
+  return d.getUTCFullYear() === nowYear ? monthDay : `${monthDay}, ${d.getUTCFullYear()}`;
 }
 
-function renderStreakSVG({ username, total, totalStart, totalEnd, current, longest }) {
-  const title = `${escapeXml(username)}'s Contribution Streak`;
-  const statCol = (x, value, label, range) => `
-      <text x="${x}" y="100" text-anchor="middle" font-family="${FONT}" font-size="30" font-weight="700" fill="#ffffff">${escapeXml(String(value))}</text>
-      <text x="${x}" y="122" text-anchor="middle" font-family="${FONT}" font-size="11" font-weight="600" letter-spacing="0.6" fill="#9aa0b4">${escapeXml(label)}</text>
-      <text x="${x}" y="138" text-anchor="middle" font-family="${FONT}" font-size="9" fill="#7a7f99">${escapeXml(range)}</text>`;
-  const currentLabel = current.length > 0 ? formatRangeShort(current.start, current.end) : "No active streak";
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="175" viewBox="0 0 495 175" role="img">
-  <title>${title}</title>
-  <rect x="0.5" y="0.5" width="494" height="174" rx="10" fill="#1a1b27" stroke="#38bdf8" stroke-opacity="0.4"/>
-  <text x="25" y="34" font-family="${FONT}" font-size="15" font-weight="700" fill="#38bdf8">${title}</text>
-  <line x1="165" y1="55" x2="165" y2="150" stroke="#2b2f45" stroke-width="1"/>
-  <line x1="330" y1="55" x2="330" y2="150" stroke="#2b2f45" stroke-width="1"/>${statCol(82.5, `${total}`, "Total Contributions", formatRange(totalStart, totalEnd))}
-  <circle cx="247.5" cy="80" r="24" fill="none" stroke="#2b2f45" stroke-width="3"/>
-  <path d="M 257.64 58.25 A 24 24 0 1 1 237.36 58.25" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
-  <path d="M 247.5 46 C 249.2 49.2 251.4 51.5 251.4 54.8 A 3.9 3.9 0 0 1 243.6 54.8 C 243.6 51.5 245.8 49.2 247.5 46 Z" fill="#38bdf8"/>
-  <text x="247.5" y="88" text-anchor="middle" font-family="${FONT}" font-size="24" font-weight="700" fill="#ffffff">${current.length}</text>
-  <text x="247.5" y="122" text-anchor="middle" font-family="${FONT}" font-size="11" font-weight="600" letter-spacing="0.6" fill="#9aa0b4">Current Streak</text>
-  <text x="247.5" y="138" text-anchor="middle" font-family="${FONT}" font-size="9" fill="#7a7f99">${escapeXml(currentLabel)}</text>${statCol(412.5, `${longest.length} day${longest.length === 1 ? "" : "s"}`, "Longest Streak", longest.length > 0 ? formatRange(longest.start, longest.end) : "No contributions yet")}
+// Exact demolab "tokyonight" theme (DenverCoder1/github-readme-streak-stats).
+const STREAK_THEME = {
+  background: "#1A1B27",
+  ring: "#70A5FD",
+  fire: "#70A5FD",
+  currStreakNum: "#BF91F3",
+  sideNums: "#70A5FD",
+  currStreakLabel: "#BF91F3",
+  sideLabels: "#70A5FD",
+  dates: "#38BDAE",
+  bar: "#E4E2E2",
+};
+const STREAK_FONT = `'Segoe UI', Ubuntu, sans-serif`;
+
+// Authentic demolab flame icon (positioned via translate, like the original).
+const FIRE_PATH =
+  "M 1.5 0.67 C 1.5 0.67 2.24 3.32 2.24 5.47 C 2.24 7.53 0.89 9.2 -1.17 9.2 " +
+  "C -3.23 9.2 -4.79 7.53 -4.79 5.47 L -4.76 5.11 C -6.78 7.51 -8 10.62 -8 13.99 " +
+  "C -8 18.41 -4.42 22 0 22 C 4.42 22 8 18.41 8 13.99 C 8 8.6 5.41 3.79 1.5 0.67 Z " +
+  "M -0.29 19 C -2.07 19 -3.51 17.6 -3.51 15.86 C -3.51 14.24 -2.46 13.1 -0.7 12.74 " +
+  "C 1.07 12.38 2.9 11.53 3.92 10.16 C 4.31 11.45 4.51 12.81 4.51 14.2 " +
+  "C 4.51 16.85 2.36 19 -0.29 19 Z";
+
+function streakRange(start, end, nowYear) {
+  if (!start) return "No contributions yet";
+  const s = formatDemolabDate(start, nowYear);
+  if (!end || start === end) return s;
+  return `${s} - ${formatDemolabDate(end, nowYear)}`;
+}
+
+function renderStreakSVG({ username, total, totalStart, current, longest, nowYear }) {
+  const T = STREAK_THEME;
+  const F = STREAK_FONT;
+  const totalRange = totalStart ? `${formatDemolabDate(totalStart, nowYear)} - Present` : "No contributions yet";
+  const side = (x, value, label, range) => `
+      <text x="${x}" y="80" text-anchor="middle" font-family="${F}" font-size="28" font-weight="700" fill="${T.sideNums}">${escapeXml(String(value))}</text>
+      <text x="${x}" y="116" text-anchor="middle" font-family="${F}" font-size="14" font-weight="400" fill="${T.sideLabels}">${escapeXml(label)}</text>
+      <text x="${x}" y="146" text-anchor="middle" font-family="${F}" font-size="12" font-weight="400" fill="${T.dates}">${escapeXml(range)}</text>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img">
+  <title>${escapeXml(username)}'s Contribution Streak</title>
+  <defs>
+    <mask id="mask_out_ring_behind_fire">
+      <rect width="495" height="195" fill="white"/>
+      <ellipse cx="247.5" cy="32" rx="13" ry="18" fill="black"/>
+    </mask>
+  </defs>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="${T.background}"/>
+  <line x1="165" y1="28" x2="165" y2="170" stroke="${T.bar}" stroke-opacity="0.3"/>
+  <line x1="330" y1="28" x2="330" y2="170" stroke="${T.bar}" stroke-opacity="0.3"/>${side(82.5, total.toLocaleString("en-US"), "Total Contributions", totalRange)}
+  <g mask="url(#mask_out_ring_behind_fire)">
+    <circle cx="247.5" cy="71" r="40" fill="none" stroke="${T.ring}" stroke-width="5"/>
+  </g>
+  <g transform="translate(247.5, 19.5)">
+    <path d="${FIRE_PATH}" fill="${T.fire}"/>
+  </g>
+  <text x="247.5" y="80" text-anchor="middle" font-family="${F}" font-size="28" font-weight="700" fill="${T.currStreakNum}">${current.length}</text>
+  <text x="247.5" y="140" text-anchor="middle" font-family="${F}" font-size="14" font-weight="700" fill="${T.currStreakLabel}">Current Streak</text>
+  <text x="247.5" y="166" text-anchor="middle" font-family="${F}" font-size="12" font-weight="400" fill="${T.dates}">${escapeXml(streakRange(current.start, current.end, nowYear))}</text>${side(412.5, longest.length.toLocaleString("en-US"), "Longest Streak", longest.length > 0 ? streakRange(longest.start, longest.end, nowYear) : "No contributions yet")}
 </svg>
 `;
 }
@@ -308,9 +343,9 @@ async function main() {
     username: USERNAME,
     total,
     totalStart: sorted[0]?.date ?? null,
-    totalEnd: sorted[sorted.length - 1]?.date ?? null,
     current,
     longest,
+    nowYear: new Date(nowMs).getUTCFullYear(),
   });
   const activitySVG = renderActivitySVG({ username: USERNAME, last31, generatedAt });
 
