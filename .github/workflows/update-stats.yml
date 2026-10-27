@@ -28,9 +28,8 @@ jobs:
         run: node scripts/generate-stats.mjs
         env:
           GH_USERNAME: rswlljms
-          # Classic PAT with only the `read:user` scope (see README / workflow notes).
-          # The default GITHUB_TOKEN lacks `read:user` for contributionsCollection.
-          GH_TOKEN: ${{ secrets.STATS_PAT }}
+          # Use the workflow token to avoid failures from expired/revoked personal tokens.
+          GH_TOKEN: ${{ github.token }}
 
       - name: Commit and push if changed
         run: |
