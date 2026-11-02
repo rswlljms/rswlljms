@@ -8,7 +8,7 @@
   </defs>
   <rect x="0.5" y="0.5" width="799" height="279" rx="10" fill="#1a1b27" stroke="#38bdf8" stroke-opacity="0.4"/>
   <text x="24" y="32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#38bdf8">rswlljms's Contribution Activity</text>
-  <text x="24" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#9aa0b4">Last 31 days · 95 contributions · peak 13/day</text>
+  <text x="24" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#9aa0b4">Last 31 days · 93 contributions · peak 13/day</text>
   
     <line x1="48" y1="242.0" x2="780" y2="242.0" stroke="#2b2f45" stroke-width="1" stroke-dasharray="none"/>
     <text x="40" y="246.0" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">0</text>
@@ -16,40 +16,40 @@
     <text x="40" y="151.2" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">7</text>
     <line x1="48" y1="66.0" x2="780" y2="66.0" stroke="#2b2f45" stroke-width="1" stroke-dasharray="4 4"/>
     <text x="40" y="70.0" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">13</text>
-  <path d="M 48.00 214.92 C 52.07 208.15, 64.27 169.79, 72.40 174.31 C 80.53 178.82, 88.67 232.97, 96.80 242.00 C 104.93 251.03, 113.07 257.79, 121.20 228.46 C 129.33 199.13, 137.47 68.26, 145.60 66.00 C 153.73 63.74, 161.87 187.85, 170.00 214.92 C 178.13 242.00, 186.27 228.46, 194.40 228.46 C 202.53 228.46, 210.67 221.69, 218.80 214.92 C 226.93 208.15, 235.07 190.10, 243.20 187.85 C 251.33 185.59, 259.47 196.87, 267.60 201.38 C 275.73 205.90, 283.87 221.69, 292.00 214.92 C 300.13 208.15, 308.27 176.56, 316.40 160.77 C 324.53 144.97, 332.67 111.13, 340.80 120.15 C 348.93 129.18, 357.07 205.90, 365.20 214.92 C 373.33 223.95, 381.47 169.79, 389.60 174.31 C 397.73 178.82, 405.87 232.97, 414.00 242.00 C 422.13 251.03, 430.27 232.97, 438.40 228.46 C 446.53 223.95, 454.67 219.44, 462.80 214.92 C 470.93 210.41, 479.07 196.87, 487.20 201.38 C 495.33 205.90, 503.47 237.49, 511.60 242.00 C 519.73 246.51, 527.87 235.23, 536.00 228.46 C 544.13 221.69, 552.27 201.38, 560.40 201.38 C 568.53 201.38, 576.67 228.46, 584.80 228.46 C 592.93 228.46, 601.07 210.41, 609.20 201.38 C 617.33 192.36, 625.47 185.59, 633.60 174.31 C 641.73 163.03, 649.87 122.41, 658.00 133.69 C 666.13 144.97, 674.27 230.72, 682.40 242.00 C 690.53 253.28, 698.67 203.64, 706.80 201.38 C 714.93 199.13, 723.07 232.97, 731.20 228.46 C 739.33 223.95, 747.47 176.56, 755.60 174.31 C 763.73 172.05, 775.93 208.15, 780.00 214.92 L 780.00 242.00 L 48.00 242.00 Z" fill="url(#areaFill)"/>
-  <path d="M 48.00 214.92 C 52.07 208.15, 64.27 169.79, 72.40 174.31 C 80.53 178.82, 88.67 232.97, 96.80 242.00 C 104.93 251.03, 113.07 257.79, 121.20 228.46 C 129.33 199.13, 137.47 68.26, 145.60 66.00 C 153.73 63.74, 161.87 187.85, 170.00 214.92 C 178.13 242.00, 186.27 228.46, 194.40 228.46 C 202.53 228.46, 210.67 221.69, 218.80 214.92 C 226.93 208.15, 235.07 190.10, 243.20 187.85 C 251.33 185.59, 259.47 196.87, 267.60 201.38 C 275.73 205.90, 283.87 221.69, 292.00 214.92 C 300.13 208.15, 308.27 176.56, 316.40 160.77 C 324.53 144.97, 332.67 111.13, 340.80 120.15 C 348.93 129.18, 357.07 205.90, 365.20 214.92 C 373.33 223.95, 381.47 169.79, 389.60 174.31 C 397.73 178.82, 405.87 232.97, 414.00 242.00 C 422.13 251.03, 430.27 232.97, 438.40 228.46 C 446.53 223.95, 454.67 219.44, 462.80 214.92 C 470.93 210.41, 479.07 196.87, 487.20 201.38 C 495.33 205.90, 503.47 237.49, 511.60 242.00 C 519.73 246.51, 527.87 235.23, 536.00 228.46 C 544.13 221.69, 552.27 201.38, 560.40 201.38 C 568.53 201.38, 576.67 228.46, 584.80 228.46 C 592.93 228.46, 601.07 210.41, 609.20 201.38 C 617.33 192.36, 625.47 185.59, 633.60 174.31 C 641.73 163.03, 649.87 122.41, 658.00 133.69 C 666.13 144.97, 674.27 230.72, 682.40 242.00 C 690.53 253.28, 698.67 203.64, 706.80 201.38 C 714.93 199.13, 723.07 232.97, 731.20 228.46 C 739.33 223.95, 747.47 176.56, 755.60 174.31 C 763.73 172.05, 775.93 208.15, 780.00 214.92" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="48.0" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-02: 2</title></circle>
-    <circle cx="72.4" cy="174.3" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-03: 5</title></circle>
-    <circle cx="96.8" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-04: 0</title></circle>
-    <circle cx="121.2" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-05: 1</title></circle>
-    <circle cx="145.6" cy="66.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-06: 13</title></circle>
-    <circle cx="170.0" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-07: 2</title></circle>
-    <circle cx="194.4" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-08: 1</title></circle>
-    <circle cx="218.8" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-09: 2</title></circle>
-    <circle cx="243.2" cy="187.8" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-10: 4</title></circle>
-    <circle cx="267.6" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-11: 3</title></circle>
-    <circle cx="292.0" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-12: 2</title></circle>
-    <circle cx="316.4" cy="160.8" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-13: 6</title></circle>
-    <circle cx="340.8" cy="120.2" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-14: 9</title></circle>
-    <circle cx="365.2" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-15: 2</title></circle>
-    <circle cx="389.6" cy="174.3" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-16: 5</title></circle>
-    <circle cx="414.0" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-17: 0</title></circle>
-    <circle cx="438.4" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-18: 1</title></circle>
-    <circle cx="462.8" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-19: 2</title></circle>
-    <circle cx="487.2" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-20: 3</title></circle>
-    <circle cx="511.6" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-21: 0</title></circle>
-    <circle cx="536.0" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-22: 1</title></circle>
-    <circle cx="560.4" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-23: 3</title></circle>
-    <circle cx="584.8" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-24: 1</title></circle>
-    <circle cx="609.2" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-25: 3</title></circle>
-    <circle cx="633.6" cy="174.3" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-26: 5</title></circle>
-    <circle cx="658.0" cy="133.7" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-27: 8</title></circle>
-    <circle cx="682.4" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-28: 0</title></circle>
-    <circle cx="706.8" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-29: 3</title></circle>
-    <circle cx="731.2" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-30: 1</title></circle>
-    <circle cx="755.6" cy="174.3" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-31: 5</title></circle>
-    <circle cx="780.0" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-11-01: 2</title></circle>
-  <text x="48" y="266" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">Oct 2, 2026</text>
-  <text x="400" y="266" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">Oct 17, 2026</text>
-  <text x="780" y="266" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">Nov 1, 2026</text>
+  <path d="M 48.00 174.31 C 52.07 185.59, 64.27 232.97, 72.40 242.00 C 80.53 251.03, 88.67 257.79, 96.80 228.46 C 104.93 199.13, 113.07 68.26, 121.20 66.00 C 129.33 63.74, 137.47 187.85, 145.60 214.92 C 153.73 242.00, 161.87 228.46, 170.00 228.46 C 178.13 228.46, 186.27 221.69, 194.40 214.92 C 202.53 208.15, 210.67 190.10, 218.80 187.85 C 226.93 185.59, 235.07 196.87, 243.20 201.38 C 251.33 205.90, 259.47 221.69, 267.60 214.92 C 275.73 208.15, 283.87 176.56, 292.00 160.77 C 300.13 144.97, 308.27 111.13, 316.40 120.15 C 324.53 129.18, 332.67 205.90, 340.80 214.92 C 348.93 223.95, 357.07 169.79, 365.20 174.31 C 373.33 178.82, 381.47 232.97, 389.60 242.00 C 397.73 251.03, 405.87 232.97, 414.00 228.46 C 422.13 223.95, 430.27 219.44, 438.40 214.92 C 446.53 210.41, 454.67 196.87, 462.80 201.38 C 470.93 205.90, 479.07 237.49, 487.20 242.00 C 495.33 246.51, 503.47 235.23, 511.60 228.46 C 519.73 221.69, 527.87 201.38, 536.00 201.38 C 544.13 201.38, 552.27 228.46, 560.40 228.46 C 568.53 228.46, 576.67 210.41, 584.80 201.38 C 592.93 192.36, 601.07 185.59, 609.20 174.31 C 617.33 163.03, 625.47 122.41, 633.60 133.69 C 641.73 144.97, 649.87 230.72, 658.00 242.00 C 666.13 253.28, 674.27 203.64, 682.40 201.38 C 690.53 199.13, 698.67 232.97, 706.80 228.46 C 714.93 223.95, 723.07 176.56, 731.20 174.31 C 739.33 172.05, 747.47 203.64, 755.60 214.92 C 763.73 226.21, 775.93 237.49, 780.00 242.00 L 780.00 242.00 L 48.00 242.00 Z" fill="url(#areaFill)"/>
+  <path d="M 48.00 174.31 C 52.07 185.59, 64.27 232.97, 72.40 242.00 C 80.53 251.03, 88.67 257.79, 96.80 228.46 C 104.93 199.13, 113.07 68.26, 121.20 66.00 C 129.33 63.74, 137.47 187.85, 145.60 214.92 C 153.73 242.00, 161.87 228.46, 170.00 228.46 C 178.13 228.46, 186.27 221.69, 194.40 214.92 C 202.53 208.15, 210.67 190.10, 218.80 187.85 C 226.93 185.59, 235.07 196.87, 243.20 201.38 C 251.33 205.90, 259.47 221.69, 267.60 214.92 C 275.73 208.15, 283.87 176.56, 292.00 160.77 C 300.13 144.97, 308.27 111.13, 316.40 120.15 C 324.53 129.18, 332.67 205.90, 340.80 214.92 C 348.93 223.95, 357.07 169.79, 365.20 174.31 C 373.33 178.82, 381.47 232.97, 389.60 242.00 C 397.73 251.03, 405.87 232.97, 414.00 228.46 C 422.13 223.95, 430.27 219.44, 438.40 214.92 C 446.53 210.41, 454.67 196.87, 462.80 201.38 C 470.93 205.90, 479.07 237.49, 487.20 242.00 C 495.33 246.51, 503.47 235.23, 511.60 228.46 C 519.73 221.69, 527.87 201.38, 536.00 201.38 C 544.13 201.38, 552.27 228.46, 560.40 228.46 C 568.53 228.46, 576.67 210.41, 584.80 201.38 C 592.93 192.36, 601.07 185.59, 609.20 174.31 C 617.33 163.03, 625.47 122.41, 633.60 133.69 C 641.73 144.97, 649.87 230.72, 658.00 242.00 C 666.13 253.28, 674.27 203.64, 682.40 201.38 C 690.53 199.13, 698.67 232.97, 706.80 228.46 C 714.93 223.95, 723.07 176.56, 731.20 174.31 C 739.33 172.05, 747.47 203.64, 755.60 214.92 C 763.73 226.21, 775.93 237.49, 780.00 242.00" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="48.0" cy="174.3" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-03: 5</title></circle>
+    <circle cx="72.4" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-04: 0</title></circle>
+    <circle cx="96.8" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-05: 1</title></circle>
+    <circle cx="121.2" cy="66.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-06: 13</title></circle>
+    <circle cx="145.6" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-07: 2</title></circle>
+    <circle cx="170.0" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-08: 1</title></circle>
+    <circle cx="194.4" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-09: 2</title></circle>
+    <circle cx="218.8" cy="187.8" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-10: 4</title></circle>
+    <circle cx="243.2" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-11: 3</title></circle>
+    <circle cx="267.6" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-12: 2</title></circle>
+    <circle cx="292.0" cy="160.8" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-13: 6</title></circle>
+    <circle cx="316.4" cy="120.2" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-14: 9</title></circle>
+    <circle cx="340.8" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-15: 2</title></circle>
+    <circle cx="365.2" cy="174.3" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-16: 5</title></circle>
+    <circle cx="389.6" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-17: 0</title></circle>
+    <circle cx="414.0" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-18: 1</title></circle>
+    <circle cx="438.4" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-19: 2</title></circle>
+    <circle cx="462.8" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-20: 3</title></circle>
+    <circle cx="487.2" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-21: 0</title></circle>
+    <circle cx="511.6" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-22: 1</title></circle>
+    <circle cx="536.0" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-23: 3</title></circle>
+    <circle cx="560.4" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-24: 1</title></circle>
+    <circle cx="584.8" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-25: 3</title></circle>
+    <circle cx="609.2" cy="174.3" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-26: 5</title></circle>
+    <circle cx="633.6" cy="133.7" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-27: 8</title></circle>
+    <circle cx="658.0" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-28: 0</title></circle>
+    <circle cx="682.4" cy="201.4" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-29: 3</title></circle>
+    <circle cx="706.8" cy="228.5" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-30: 1</title></circle>
+    <circle cx="731.2" cy="174.3" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-10-31: 5</title></circle>
+    <circle cx="755.6" cy="214.9" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-11-01: 2</title></circle>
+    <circle cx="780.0" cy="242.0" r="2.6" fill="#1a1b27" stroke="#38bdf8" stroke-width="1.6"><title>2026-11-02: 0</title></circle>
+  <text x="48" y="266" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">Oct 3, 2026</text>
+  <text x="400" y="266" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">Oct 18, 2026</text>
+  <text x="780" y="266" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#7a7f99">Nov 2, 2026</text>
 </svg>
